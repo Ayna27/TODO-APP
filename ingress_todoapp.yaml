@@ -39,7 +39,7 @@ spec:
   selector:
     app: todo-app-1
   ports:
-    - port: 8082
+    - port: 80
       targetPort: 8001
       protocol: TCP
 
